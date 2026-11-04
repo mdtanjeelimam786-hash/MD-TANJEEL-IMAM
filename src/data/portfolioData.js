@@ -2,7 +2,7 @@ export const personalData = {
   name: "MD TANJEEL IMAM",
   displayName: "MD Tanjeel Imam",
   logo: "MTI",
-  logoBadge: "TI",
+  logoBadge: "MTI",
   role: "IT Student & Aspiring Developer",
   heroRole: "IT Student & Developer",
   heroSubtitle: "IT Student & Software Developer",
@@ -33,14 +33,14 @@ export const navItems = [
 export const statistics = [
   {
     icon: "GraduationCap",
-    value: "1+",
+    value: "3+",
     unit: "",
     label: "Years of Learning",
     description: "Academic & self-taught foundation"
   },
   {
     icon: "Laptop",
-    value: "10+",
+    value: "4+",
     unit: "",
     label: "Projects Completed",
     description: "Web apps & software experiments"
@@ -89,14 +89,14 @@ export const keyStrengths = [
 ];
 
 export const skillsData = [
-  { name: "HTML", level: 92, category: "Frontend", icon: "Code", color: "#E34F26", desc: "Semantic markup, modern HTML5 API, SEO structure" },
-  { name: "CSS", level: 88, category: "Frontend", icon: "Palette", color: "#1572B6", desc: "Tailwind CSS, Flexbox, Grid, Glassmorphism, animations" },
-  { name: "JavaScript", level: 85, category: "Frontend", icon: "Braces", color: "#F7DF1E", desc: "ES6+, DOM manipulation, asynchronous programming, APIs" },
-  { name: "React", level: 80, category: "Frontend", icon: "Atom", color: "#61DAFB", desc: "Component architecture, hooks, state, responsive UI" },
-  { name: "Java", level: 78, category: "Programming", icon: "Coffee", color: "#ED8B00", desc: "Object-oriented programming, core principles, problem solving" },
-  { name: "Python", level: 82, category: "Programming", icon: "Binary", color: "#3776AB", desc: "Data structures, scripting, algorithm design, clean code" },
-  { name: "C", level: 80, category: "Programming", icon: "Cpu", color: "#A8B9CC", desc: "Memory management, pointers, low-level computation basics" },
-  { name: "C++", level: 76, category: "Programming", icon: "Layers", color: "#00599C", desc: "Standard Template Library (STL), OOP concepts, algorithmic speed" },
+  { name: "HTML", level: 50, category: "Frontend", icon: "Code", color: "#E34F26", desc: "Semantic markup, modern HTML5 API, SEO structure" },
+  { name: "CSS", level: 50, category: "Frontend", icon: "Palette", color: "#1572B6", desc: "Tailwind CSS, Flexbox, Grid, Glassmorphism, animations" },
+  { name: "JavaScript", level: 50, category: "Frontend", icon: "Braces", color: "#F7DF1E", desc: "ES6+, DOM manipulation, asynchronous programming, APIs" },
+  { name: "React", level: 50, category: "Frontend", icon: "Atom", color: "#61DAFB", desc: "Component architecture, hooks, state, responsive UI" },
+  { name: "Java", level: 50, category: "Programming", icon: "Coffee", color: "#ED8B00", desc: "Object-oriented programming, core principles, problem solving" },
+  { name: "Python", level: 50, category: "Programming", icon: "Binary", color: "#3776AB", desc: "Data structures, scripting, algorithm design, clean code" },
+  { name: "C", level: 50, category: "Programming", icon: "Cpu", color: "#A8B9CC", desc: "Memory management, pointers, low-level computation basics" },
+  { name: "C++", level: 50, category: "Programming", icon: "Layers", color: "#00599C", desc: "Standard Template Library (STL), OOP concepts, algorithmic speed" },
   { name: "Git & GitHub", level: 88, category: "Tools", icon: "GitBranch", color: "#F05032", desc: "Version control, branching, pull requests, open source workflows" }
 ];
 
@@ -109,7 +109,7 @@ export const projectsData = [
     description: "A responsive personal developer portfolio website presenting my skills, projects, and journey in technology with electric blue glassmorphism UI.",
     tags: ["React", "Tailwind CSS", "JavaScript", "Vite"],
     githubUrl: "https://github.com/mdtanjeelimam786-hash/PORTFOLIO",
-    liveUrl: "https://github.com/mdtanjeelimam786-hash/PORTFOLIO",
+    liveUrl: "https://mdtanjeelimam.netlify.app/",
     featured: true,
     category: "Web Development",
     accent: "from-blue-500 to-indigo-600",
@@ -149,16 +149,30 @@ export const experienceTimeline = [
   {
     step: "01",
     category: "Education",
-    tagline: "Academic Journey",
+    tagline: "Acadmic Journey",
+    title: "Secondary Examination",
+    period: "2019",
+    subtitle: "Matriculation Examination",
+    title: "Intermediate Examination"
+    period: "2021",
+    subtitle: "Science Student Bio/Math",
+    description: "Building a strong foundation in computer science, programming .",
+    highlights: ["Computer Science Fundamentals", "Computer Networking & Protocols", "Database Management Systems", "Software Engineering Principles"],
+    icon: "Acadmiccap"
+  },
+  {
+    step: "02",
+    category: "Education",
+    tagline: "Technical Journey",
     title: "Information Technology Student",
-    period: "Present",
+    period: "2021/2024",
     subtitle: "Diploma in Computer Science Engineering",
     description: "Building a strong foundation in computer science, programming, networking, operating systems, and information technology. Focused on mastering core algorithms and modern development stacks.",
     highlights: ["Computer Science Fundamentals", "Computer Networking & Protocols", "Database Management Systems", "Software Engineering Principles"],
     icon: "GraduationCap"
-  },
+  }
   {
-    step: "02",
+    step: "03",
     category: "Learning Experience",
     tagline: "Skill Development",
     title: "Technical Skills & Projects",
@@ -169,7 +183,7 @@ export const experienceTimeline = [
     icon: "Code2"
   },
   {
-    step: "03",
+    step: "04",
     category: "Internship Experience",
     tagline: "Practical Learning",
     title: "IT Intern / Web Development Intern",
@@ -180,7 +194,7 @@ export const experienceTimeline = [
     icon: "Briefcase"
   },
   {
-    step: "04",
+    step: "05",
     category: "Achievements",
     tagline: "Milestones",
     title: "Personal & Technical Achievements",
