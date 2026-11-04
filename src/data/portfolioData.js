@@ -36,11 +36,11 @@ export const statistics = [
     value: "3+",
     unit: "",
     label: "Years of Learning",
-    description: "Academic & self-taught foundation"
+    description: "Technical Study & self-taught foundation"
   },
   {
     icon: "Laptop",
-    value: "4+",
+    value: "5+",
     unit: "",
     label: "Projects Completed",
     description: "Web apps & software experiments"
