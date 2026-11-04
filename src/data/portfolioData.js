@@ -153,7 +153,7 @@ export const experienceTimeline = [
     title: "Secondary Examination",
     period: "2019",
     subtitle: "Matriculation Examination",
-    title: "Intermediate Examination"
+    title: "Intermediate Examination",
     period: "2021",
     subtitle: "Science Student Bio/Math",
     description: "Building a strong foundation in computer science, programming .",
@@ -170,7 +170,7 @@ export const experienceTimeline = [
     description: "Building a strong foundation in computer science, programming, networking, operating systems, and information technology. Focused on mastering core algorithms and modern development stacks.",
     highlights: ["Computer Science Fundamentals", "Computer Networking & Protocols", "Database Management Systems", "Software Engineering Principles"],
     icon: "GraduationCap"
-  }
+  },
   {
     step: "03",
     category: "Learning Experience",
